@@ -59,4 +59,5 @@ accelerometerReadings.forEach((recentAccelerationData)=>{
 expect(steps.length).toBe(32);//There were 32 visible in this test data, while only the first 30 were intentional!
 
 
+
 });
