@@ -1,8 +1,8 @@
-import helloWorld from "../utils/helloWorld";
+import HelloWorld from '../utils/HelloWorld';
 
 it ("Should return 'Hello World", ()=> {
 
-    const result = helloWorld();
+    const result = HelloWorld();
 
     expect(result).toBe("Hello World");
 
